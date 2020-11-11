@@ -71,7 +71,7 @@
     },
     {
       "name": "airports",
-      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/gares_freq.csv",
+      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/gares_ter_freq.csv",
       "format": {"type": "csv", "parse": "auto"},
       "transform": [
         {
@@ -126,7 +126,7 @@
       "name": "size",
       "type": "linear",
       "domain": {"data": "traffic", "field": "flights"},
-      "range": [50, 20000]
+      "range": [20, 10000]
     }
   ],
   "marks": [
