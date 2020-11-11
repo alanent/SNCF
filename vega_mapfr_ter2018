@@ -5,22 +5,25 @@
   "height": 1150,
   "padding": {"top": 30, "left": 250, "right": 0, "bottom": 0},
   "autosize": "none",
-
   "signals": [
     {
-      "name": "scale", "value": 4500,
+      "name": "scale",
+      "value": 4500,
       "bind": {"input": "range", "min": 500, "max": 4000}
     },
     {
-      "name": "translateX", "value": 200,
+      "name": "translateX",
+      "value": 200,
       "bind": {"input": "range", "min": -500, "max": 1200}
     },
     {
-      "name": "translateY", "value": 4700,
+      "name": "translateY",
+      "value": 4700,
       "bind": {"input": "range", "min": -300, "max": 700}
     },
     {
-      "name": "shape", "value": "line",
+      "name": "shape",
+      "value": "curve",
       "bind": {"input": "radio", "options": ["line", "curve"]}
     },
     {
@@ -36,7 +39,6 @@
       "value": "Gares TER, 2018",
       "update": "hover ? hover.gares + ' (' + hover.gares + ')' : 'Gares TER, 2018'"
     },
-    
     {
       "name": "cell_stroke",
       "value": null,
@@ -46,92 +48,71 @@
       ]
     }
   ],
-
   "data": [
     {
       "name": "states",
       "url": "https://raw.githubusercontent.com/alanent/france-geojson/master/departements.geojson",
       "format": {"type": "topojson", "feature": "states"},
-      "transform": [
-        {
-          "type": "geopath",
-          "projection": "projection"
-        }
-      ]
+      "transform": [{"type": "geopath", "projection": "projection"}]
     },
     {
       "name": "traffic",
-      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/OD_ter.csv",
+      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/liens_ter.csv",
       "format": {"type": "csv", "parse": "auto"},
       "transform": [
         {
           "type": "aggregate",
           "groupby": ["origin"],
-          "fields": ["count"], "ops": ["average"], "as": ["tot_2018"]
+          "fields": ["count"],
+          "ops": ["average"],
+          "as": ["flights"]
         }
       ]
     },
     {
       "name": "airports",
-      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/gares_ter.csv",
-      "format": {"type": "csv","parse": "auto"
-      },
+      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/gares_freq.csv",
+      "format": {"type": "csv", "parse": "auto"},
       "transform": [
         {
           "type": "lookup",
-          "from": "traffic", "key": "origin",
-          "fields": ["gares"], "as": ["traffic"]
+          "from": "traffic",
+          "key": "origin",
+          "fields": ["UIC"],
+          "as": ["traffic"]
         },
-        {
-          "type": "filter",
-          "expr": "datum.traffic != null"
-        },
+        {"type": "filter", "expr": "datum.traffic != null"},
         {
           "type": "geopoint",
           "projection": "projection",
           "fields": ["longitude", "latitude"]
         },
+        {"type": "filter", "expr": "datum.x != null && datum.y != null"},
+        {"type": "voronoi", "x": "x", "y": "y"},
         {
-          "type": "filter",
-          "expr": "datum.x != null && datum.y != null"
-        },
-        {
-          "type": "voronoi", "x": "x", "y": "y"
-        },
-        {
-          "type": "collect", "sort": {
-            "field": "traffic.tot_2018",
-            "order": "descending"
-          }
+          "type": "collect",
+          "sort": {"field": "traffic.flights", "order": "descending"}
         }
       ]
     },
     {
       "name": "routes",
-      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/OD_ter.csv",
+      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/liens_ter.csv",
       "format": {"type": "csv", "parse": "auto"},
       "transform": [
-        {
-          "type": "filter",
-          "expr": "hover && hover.gares == datum.origin"
-        },
+        {"type": "filter", "expr": "hover && hover.UIC == datum.origin"},
         {
           "type": "lookup",
-          "from": "airports", "key": "gares",
-          "fields": ["origin", "destination"], "as": ["source", "target"]
+          "from": "airports",
+          "key": "UIC",
+          "fields": ["origin", "destination"],
+          "as": ["source", "target"]
         },
-        {
-          "type": "filter",
-          "expr": "datum.source && datum.target"
-        },
-        {
-          "type": "linkpath",
-          "shape": {"signal": "shape"}
-        }
+        {"type": "filter", "expr": "datum.source && datum.target"},
+        {"type": "linkpath", "shape": {"signal": "shape"}}
       ]
     }
   ],
-
   "projections": [
     {
       "name": "projection",
@@ -140,28 +121,21 @@
       "translate": [{"signal": "translateX"}, {"signal": "translateY"}]
     }
   ],
-
   "scales": [
     {
       "name": "size",
       "type": "linear",
-      "domain": {"data": "traffic", "field": "tot_2018"},
-      "range": [50, 5000]
+      "domain": {"data": "traffic", "field": "flights"},
+      "range": [50, 20000]
     }
   ],
-
   "marks": [
     {
       "type": "path",
       "from": {"data": "states"},
       "encode": {
-        "enter": {
-          "fill": {"value": "#dedede"},
-          "stroke": {"value": "white"}
-        },
-        "update": {
-          "path": {"field": "path"}
-        }
+        "enter": {"fill": {"value": "#dedede"}, "stroke": {"value": "white"}},
+        "update": {"path": {"field": "path"}}
       }
     },
     {
@@ -169,16 +143,13 @@
       "from": {"data": "airports"},
       "encode": {
         "enter": {
-          "size": {"scale": "size", "field": "traffic.tot_2018"},
+          "size": {"scale": "size", "field": "traffic.flights"},
           "fill": {"value": "steelblue"},
           "fillOpacity": {"value": 0.8},
           "stroke": {"value": "white"},
           "strokeWidth": {"value": 1.5}
         },
-        "update": {
-          "x": {"field": "x"},
-          "y": {"field": "y"}
-        }
+        "update": {"x": {"field": "x"}, "y": {"field": "y"}}
       }
     },
     {
@@ -219,9 +190,7 @@
           "fontSize": {"value": 20},
           "align": {"value": "right"}
         },
-        "update": {
-          "text": {"signal": "title"}
-        }
+        "update": {"text": {"signal": "title"}}
       }
     }
   ]
