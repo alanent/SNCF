@@ -1,5 +1,5 @@
-gares,latitue,longitude
-Gare de Aéropt-C-de-Gaulle-TGV,49.00401756,2.57158758
+gares,latitude,longitude
+Gare de AÃ©ropt-C-de-Gaulle-TGV,49.00401756,2.57158758
 Gare de Agde,43.31757369,3.46602019
 Gare de Agen,44.20797206,0.62090454
 Gare de Aime-la-Plagne,45.55436807,6.64888363
@@ -8,7 +8,7 @@ Gare de Aix-les-Bains-le-Revard,45.68786249,5.90934966
 Gare de Albertville,45.67318392,6.38323835
 Gare de Ancenis,47.36945783,-1.17760826
 Gare de Angers-St-Laud,47.46443417,-0.55694922
-Gare de Angoulême,45.65393498,0.16452848
+Gare de AngoulÃªme,45.65393498,0.16452848
 Gare de Annecy,45.90205904,6.12181945
 Gare de Annemasse,46.19922998,6.23638776
 Gare de Antibes,43.58578911,7.11951629
@@ -23,12 +23,12 @@ Gare de Bar-le-Duc,48.77363051,5.16701612
 Gare de Bardonecchia-Stazione,45.07642558,6.709635
 Gare de Bayonne,43.4967594,-1.47039808
 Gare de Beaune,47.0230407,4.8487235
-Gare de Belfort-Montbéliard-TGV,47.58659149,6.89903128
+Gare de Belfort-MontbÃ©liard-TGV,47.58659149,6.89903128
 Gare de Bellegarde-s-V. Gare,46.10970399,5.82364602
-Gare de Besançon-Franche-Comté,47.30747111,5.95475873
-Gare de Besançon-Viotte,47.24703813,6.02191203
-Gare de Béthune,50.52143359,2.64039821
-Gare de Béziers,43.33622529,3.21921804
+Gare de BesanÃ§on-Franche-ComtÃ©,47.30747111,5.95475873
+Gare de BesanÃ§on-Viotte,47.24703813,6.02191203
+Gare de BÃ©thune,50.52143359,2.64039821
+Gare de BÃ©ziers,43.33622529,3.21921804
 Gare de Biarritz,43.45937697,-1.54601123
 Gare de Biganos-Facture,44.63748155,-0.96602054
 Gare de Bordeaux-St-Jean,44.82653979,-0.55619406
@@ -36,15 +36,15 @@ Gare de Boulogne Ville,50.71558518,1.60980589
 Gare de Bourg-St-Maurice,45.61852135,6.77148144
 Gare de Brest,48.38808306,-4.47891795
 Gare de Bruxelles-M./Brussel-Z.,50.83527508,4.33582771
-Gare de Calais Fréthun,50.9012626,1.81102746
+Gare de Calais FrÃ©thun,50.9012626,1.81102746
 Gare de Calais Ville,50.95345613,1.85074515
 Gare de Cannes,43.55391311,7.01972542
 Gare de Carcassonne,43.2177147,2.35188313
-Gare de Chalon-sur-Saône,46.7815704,4.84348859
-Gare de Châlons-en-Champagne,48.9555093,4.34895439
-Gare de Chambéry-Chal.-les-Eaux,45.57103797,5.91980053
+Gare de Chalon-sur-SaÃ´ne,46.7815704,4.84348859
+Gare de ChÃ¢lons-en-Champagne,48.9555093,4.34895439
+Gare de ChambÃ©ry-Chal.-les-Eaux,45.57103797,5.91980053
 Gare de Champagne-Ardenne,49.21164026,3.98878814
-Gare de Charleville-Mézières,49.76742007,4.7248489
+Gare de Charleville-MÃ©ziÃ¨res,49.76742007,4.7248489
 Gare de Chatellerault,46.81856464,0.54921798
 Gare de Cluses (Hte-Savoie),46.06141903,6.58268089
 Gare de Colmar,48.07315381,7.34708413
@@ -69,7 +69,7 @@ Gare de Grenoble,45.1914627,5.71452957
 Gare de Guingamp,48.55553565,-3.14271633
 Gare de Hazebrouck,50.72504307,2.54152631
 Gare de Hendaye,43.35299487,-1.78186851
-Gare de Hyères,43.1088605,6.12419901
+Gare de HyÃ¨res,43.1088605,6.12419901
 Gare de Kaiserslautern-Hbf,49.43630994,7.76858612
 Gare de Karlsruhe-Hbf,48.99441342,8.40028628
 Gare de La Baule-Escoublac,47.28862216,-2.38922534
@@ -95,17 +95,17 @@ Gare de Lille Flandres,50.63620117,3.07102315
 Gare de Lorient,47.75520333,-3.36634771
 Gare de Lorraine-TGV,48.94779465,6.16977576
 Gare de Lourdes,43.10042847,-0.04219186
-Gare de Lunéville,48.58799369,6.49703457
+Gare de LunÃ©ville,48.58799369,6.49703457
 Gare de Lutterbach Tram-train,47.75792329,7.27676396
 Gare de Luxembourg,49.59965204,6.13400724
 Gare de Lyon-Part-Dieu,45.7605853,4.85943505
 Gare de Lyon-Perrache,45.74878519,4.82594103
 Gare de Lyon-Saint-Exupery-Tgv,45.72092788,5.07583344
-Gare de Mâcon-Loché-TGV,46.28289775,4.77894838
-Gare de Mâcon-Ville,46.30265933,4.82514854
+Gare de MÃ¢con-LochÃ©-TGV,46.28289775,4.77894838
+Gare de MÃ¢con-Ville,46.30265933,4.82514854
 Gare de Mannheim-Hbf,49.47974384,8.47011276
 Gare de Mantes-la-Jolie,48.98968735,1.70329418
-Gare de Marne-la-Vallée-Chessy.,48.87059769,2.78287721
+Gare de Marne-la-VallÃ©e-Chessy.,48.87059769,2.78287721
 Gare de Marseille-St-Charles,43.30272986,5.38064989
 Gare de Massy-Palaiseau,48.72490168,2.25659692
 Gare de Massy-TGV,48.72602849,2.26156762
@@ -118,26 +118,26 @@ Gare de Modane,45.19355829,6.65917769
 Gare de Monaco-Monte-Carlo,43.73848311,7.41966996
 Gare de Montauban-Ville-Bourbon,44.01463933,1.34197365
 Gare de Montbard,47.61871969,4.33615203
-Gare de Montélimar,44.55899966,4.74478967
+Gare de MontÃ©limar,44.55899966,4.74478967
 Gare de Montpellier-Saint-Roch,43.60583439,3.88236031
 Gare de Montpellier-Sud-France,43.59474378,3.92683548
 Gare de Morlaix,48.5779789,-3.83276143
-Gare de Moûtiers-Salins-Brides,45.48647746,6.53138203
+Gare de MoÃ»tiers-Salins-Brides,45.48647746,6.53138203
 Gare de Mulhouse,47.74179838,7.34284957
 Gare de Mulhouse Dornach TT,47.74676172,7.30778993
 Gare de Mulhouse Mairie,47.74934554,7.33562585
 Gare de Mulhouse Porte Haute,47.74664882,7.33189716
 Gare de Mulhouse Porte-Jeune,47.74958195,7.34019146
-Gare de Mulhouse République,47.74563075,7.34279771
+Gare de Mulhouse RÃ©publique,47.74563075,7.34279771
 Gare de Mulhouse Tour Nessel,47.74506807,7.32862146
 Gare de Mulhouse-Gare-Centrale,47.74179838,7.34284957
-Gare de Mulhouse-Musées,47.74853897,7.29802886
+Gare de Mulhouse-MusÃ©es,47.74853897,7.29802886
 Gare de Nancy-Ville,48.68978225,6.17427169
 Gare de Nantes,47.21750472,-1.54192517
 Gare de Narbonne,43.19103322,3.00595633
 Gare de Nice-Ville,43.70471069,7.26178618
-Gare de Nîmes,43.83229306,4.36583551
-Gare de Nîmes Pont-du-Gard,43.81680671,4.5076804
+Gare de NÃ®mes,43.83229306,4.36583551
+Gare de NÃ®mes Pont-du-Gard,43.81680671,4.5076804
 Gare de Niort,46.31934516,-0.45439057
 Gare de Novara,45.45074172,8.62495347
 Gare de Offenburg,48.47646638,7.94672063
@@ -150,11 +150,11 @@ Gare de Paris-Gare-de-Lyon,48.84492163,2.37346237
 Gare de Paris-Montparnasse 1-2,48.84062983,2.31989439
 Gare de Pau,43.29166733,-0.3696496
 Gare de Perpignan,42.69607483,2.87961698
-Gare de Plouaret-Trégor,48.60618896,-3.46681
+Gare de Plouaret-TrÃ©gor,48.60618896,-3.46681
 Gare de Poitiers,46.58218335,0.33308432
 Gare de Pornichet,47.2704847,-2.34473718
 Gare de Quimper,47.99465835,-4.09210303
-Gare de Quimperlé,47.86906313,-3.55301115
+Gare de QuimperlÃ©,47.86906313,-3.55301115
 Gare de Rang du Fl. Verton Ber.,50.41581001,1.64807751
 Gare de Redon,47.6517633,-2.08787664
 Gare de Reims,49.25906626,4.02401739
@@ -164,31 +164,31 @@ Gare de Rethel,49.50457068,4.37028428
 Gare de Rosporden,47.96018968,-3.83275774
 Gare de Roubaix,50.69535226,3.16302118
 Gare de Rouen-Rive-Droite,49.44903033,1.09415392
-Gare de Saarbrücken /Sarrebruck,49.24067602,6.99098282
-Gare de Sablé-sur-Sarthe,47.84171822,-0.3420485
-Gare de Sallanches-Comb.Megève,45.93566889,6.63647092
+Gare de SaarbrÃ¼cken /Sarrebruck,49.24067602,6.99098282
+Gare de SablÃ©-sur-Sarthe,47.84171822,-0.3420485
+Gare de Sallanches-Comb.MegÃ¨ve,45.93566889,6.63647092
 Gare de Sarrebourg,48.73794081,7.05278059
 Gare de Saumur,47.268972,-0.07142992
 Gare de Saverne,48.74477891,7.36215238
 Gare de Sedan,49.69486091,4.92998882
-Gare de Sélestat,48.25963804,7.44210277
-Gare de Sète,43.41281189,3.69639619
+Gare de SÃ©lestat,48.25963804,7.44210277
+Gare de SÃ¨te,43.41281189,3.69639619
 Gare de St-Avre-la-Chambre,45.35310182,6.30288419
 Gare de St-Brieuc,48.50722302,-2.76546663
-Gare de St-Dié-des-Vosges,48.28223818,6.94805613
-Gare de St-Etienne-Châteaucreux,45.44338161,4.39999641
+Gare de St-DiÃ©-des-Vosges,48.28223818,6.94805613
+Gare de St-Etienne-ChÃ¢teaucreux,45.44338161,4.39999641
 Gare de St-Gervais-L-B-Le-Fayet,45.90647016,6.70071726
 Gare de St-Jean-de-Luz-Ciboure,43.38584546,-1.66116196
 Gare de St-Jean-de-Maurienne-A.,45.27784161,6.35419796
-Gare de St-Maixent (Deux-Sèvr.),46.40630762,-0.20130625
+Gare de St-Maixent (Deux-SÃ¨vr.),46.40630762,-0.20130625
 Gare de St-Malo,48.6466523,-2.00462026
 Gare de St-Michel-Valloire,45.21724733,6.47111769
 Gare de St-Nazaire,47.28647399,-2.21107419
 Gare de St-Pierre-des-Corps,47.38573204,0.72505388
-Gare de St-Raphaël-Valescure,43.42360603,6.76901271
+Gare de St-RaphaÃ«l-Valescure,43.42360603,6.76901271
 Gare de Strasbourg,48.5851719,7.73396834
 Gare de Stuttgart,48.78364169,9.18053567
-Gare de Surgères,46.11341598,-0.76213303
+Gare de SurgÃ¨res,46.11341598,-0.76213303
 Gare de Tarbes,43.23980288,0.06940671
 Gare de TGV Haute-Picardie,49.85920132,2.83165428
 Gare de Thionville,49.35392318,6.16885488
@@ -202,9 +202,9 @@ Gare de Valence-TGV,44.99137044,4.97894146
 Gare de Valence-Ville,44.92807044,4.89329483
 Gare de Valenciennes,50.36318314,3.51712847
 Gare de Vannes,47.66532376,-2.75252349
-Gare de Vendôme-Villiers-s-Loir,47.8203239,1.01966733
+Gare de VendÃ´me-Villiers-s-Loir,47.8203239,1.01966733
 Gare de Vercelli,45.32910962,8.41483608
 Gare de Versailles-Chantiers,48.79556635,2.13546496
-Gare de Vitré,48.12241997,-1.21196568
-Gare de Vitry-le-François,48.7177326,4.58723196
+Gare de VitrÃ©,48.12241997,-1.21196568
+Gare de Vitry-le-FranÃ§ois,48.7177326,4.58723196
 Gare de Zu-Rhein,47.74262462,7.31834386
