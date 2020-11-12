@@ -97,7 +97,7 @@
     },
     {
       "name": "routes",
-      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/liens_ter.csv",
+      "url": "https://raw.githubusercontent.com/alanent/SNCF/main/liens_all_fr",
       "format": {"type": "csv", "parse": "auto"},
       "transform": [
         {"type": "filter", "expr": "hover && hover.UIC == datum.origin"},
@@ -126,7 +126,7 @@
       "name": "size",
       "type": "linear",
       "domain": {"data": "traffic", "field": "flights"},
-      "range": [20, 10000]
+      "range": [40, 30000]
     }
   ],
   "marks": [
