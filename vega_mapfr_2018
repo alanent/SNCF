@@ -36,8 +36,8 @@
     },
     {
       "name": "title",
-      "value": "Gares TER, 2018",
-      "update": "hover ? hover.gares + ' (' + hover.gares + ')' : 'Gares TER, 2018'"
+      "value": "Fréquentation & destinations SNCF, 2018",
+      "update": "hover ? hover.gares + ' (' + hover.gares + ')' : 'Fréquentation & destinations SNCF, 2018'"
     },
     {
       "name": "cell_stroke",
