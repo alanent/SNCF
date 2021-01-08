@@ -44,7 +44,6 @@
 {"name":"Saint-Thégonnec Loc-Eguiner","group":29,"index":29266},
 {"name":"Vannes","group":56,"index":56260},
 {"name":"Vitré","group":35,"index":35360}],
-
 "links":[{"source":22020,"target":22070,"value":70},
 {"source":22032,"target":22070,"value":80},
 {"source":22070,"target":56260,"value":129},
