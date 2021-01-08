@@ -1,1 +1,1 @@
-{"nodes":[{"name":"Brest","group":29,"index":29019},{"name":"Lorient","group":56,"index":56121},{"name":"Quimper","group":29,"index":29232}],"links":[{"source":29019,"target":29232,"value":70},{"source":29232,"target":56121,"value":50}]}
+{"nodes":[{"name":"Brest","group":29,"index":0},{"name":"Lorient","group":56,"index":1},{"name":"Quimper","group":29,"index":2}],"links":[{"source":0,"target":1"value":70},{"source":0,"target":2,"value":50}]}
